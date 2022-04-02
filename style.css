@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+/* video-background */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #121212;
+  }
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+
+/* clock */  
+#clock {
+    position: absolute;
+    font-family: 'Orbitron', sans-serif;
+    color: #66ff99;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    top: 40%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -260px;
+
+    opacity: 1;
+    transition: opacity 400ms;
+}
+
+#clock.fade{
+  opacity: 0;
+  transition: opacity 400ms;
+}
+
+/*date*/
+#cur_date {
+    position: absolute;
+    font-family: 'Orbitron', sans-serif;
+    color: #66ff99;
+    font-size: 34px;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 40px;
+    top: 40%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -197px;
+    opacity: 1;
+    transition: opacity 400ms;
+}
+
+#cur_date.fade {
+    opacity: 0;
+    transition: opacity 400ms;
+}
+
+/* head */
+header{
+  position: absolute;
+  text-align: center;
+  background-size: cover;
+  color: white;
+}
+
+ul{
+  padding: 10px;
+}
+
+li{
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+a:hover{
+  color: #006de1;
+} 
+
+a{
+  font-family: 'Orbitron', sans-serif;
+  text-decoration: none;
+	color: #66ff99 ;
+}
+
+i{
+  color: #66ff99 ;
+}
+
+/*contact*/
+/* nav{
+    position: absolute;
+}
+
+#contact {
+    font-size: 27px;
+    width: 40em;
+    margin-top: 1em;
+    color: #66ff99;
+    margin-left: 19em;
+    display: inline-block;
+    text-align: start;
+    opacity: 0;
+    transition: opacity 400ms;
+}
+
+   #contact.fade {
+        opacity: 1;
+        transition: opacity 400ms;
+    } */
